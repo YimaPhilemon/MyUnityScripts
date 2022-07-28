@@ -7,6 +7,9 @@ Some Scripts I have worked on
 You can connect to me via:
 
 yimaphilemon56@gmail.com
+
 https://yimaphilemon.weebly.com
+
 +2349120925909
- https://www.linkedin.com/in/yima-philemon-b07b161b9
+
+https://www.linkedin.com/in/yima-philemon-b07b161b9
