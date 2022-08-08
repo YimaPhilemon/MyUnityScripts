@@ -38,7 +38,17 @@ public class CameraShake : MonoBehaviour
         }
 	}
 
-
+    public void Zoom(bool trigger)
+	{
+        if(trigger)
+		{
+            cam.m_Lens.OrthographicSize = 17.5f;
+		}
+		else
+		{
+            cam.m_Lens.OrthographicSize = 14f;
+        }
+	}
 
     private void Update()
 	{
