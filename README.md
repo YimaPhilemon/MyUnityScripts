@@ -1,6 +1,7 @@
 # MyUnityScripts
-I am a unity developer specialized in diverse aspects of game development including level design ,Photon Multiplayer, programming(C# and C++), 
-cinematics, Game play design and environment art. I have more than Four years of experience working with unity.
+[OPEN TO OPPORTUNITIES]
+
+Hello, I'm Yima Philemon, a highly skilled Unity 3D Game Developer and Level Designer with over 5 years of expertise in mobile VR, Unity3D, and Photon multiplayer. I am passionate about joining your team and contributing to the success of your projects.
 
 Some Scripts I have worked on
 
