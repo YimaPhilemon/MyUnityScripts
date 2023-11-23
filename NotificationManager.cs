@@ -1,5 +1,7 @@
 using UnityEngine;
 using System;
+using UnityEngine.UI;
+using TMPro;
 #if UNITY_ANDROID
 using Unity.Notifications.Android;
 using UnityEngine.Android;
@@ -9,6 +11,10 @@ using Unity.Notifications.iOS;
 
 public class NotificationManager : MonoBehaviour
 {
+	public Button SendNotifcationBtn;			 
+	public TMP_InputField tittleInputField;	   
+	public TMP_InputField messageInputField;
+	public TMP_InputField timeInputField;	   
 	private void Start()
 	{
 #if UNITY_ANDROID
@@ -26,9 +32,20 @@ public class NotificationManager : MonoBehaviour
 		};
 
 		AndroidNotificationCenter.RegisterNotificationChannel(channel);
-
-		SendNotification("Test Notification", "This is a test notification", 10);
 #endif
+		SendNotifcationBtn.onClick.AddListener(OnSendNotication);
+		//SendNotification("Test Notification", "This is a test notification", 10);
+	}
+
+	public void OnSendNotication()
+	{
+		if (string.IsNullOrEmpty(timeInputField.text)) return;
+
+		float time = float.Parse(timeInputField.text); 
+		string title = (string.IsNullOrEmpty(tittleInputField.text)) ? "Test Notification" : tittleInputField.text;
+		string message = (string.IsNullOrEmpty(messageInputField.text)) ? $"Notifications in {time} minutes" : messageInputField.text;
+
+		SendNotification(title, message, time);
 	}
 
 	public void SendNotification(string title, string message, float time)
