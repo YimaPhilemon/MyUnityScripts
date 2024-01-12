@@ -3,7 +3,7 @@ all just references
 
 [OPEN TO OPPORTUNITIES]
 
-Hello, I'm Yima Philemon, a highly skilled Unity 3D Game Developer and Level Designer with over 5 years of expertise in mobile VR, Unity3D, and Photon multiplayer. I am passionate about joining your team and contributing to the success of your projects.
+Hello, I'm Yima Philemon, a highly skilled Unity 3D Game Developer and Level Designer with over 6 years of expertise in mobile VR, Unity3D, and Photon multiplayer. I am passionate about joining your team and contributing to the success of your projects.
 
 Some Scripts I have worked on
 
