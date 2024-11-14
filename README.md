@@ -1,9 +1,9 @@
-# MyUnityScripts 
+# MyScripts 
 all just references
 
-[OPEN TO OPPORTUNITIES]
+[HIRE ME]
 
-Hello, I'm Yima Philemon, a highly skilled Unity 3D Game Developer and Level Designer with over 6 years of expertise in mobile VR, Unity3D, and Photon multiplayer. I am passionate about joining your team and contributing to the success of your projects.
+Hello, I'm Yima Philemon, a Unity 3D game developer, Flutter developer, level designer, c#, and dart programmer with over 6 years of expertise in mobile VR, Unity 3D, Photon multiplayer, and Flutter. I am passionate about joining your team and contributing to the success of your projects.
 
 Some Scripts I have worked on
 
